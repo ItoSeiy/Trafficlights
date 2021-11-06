@@ -73,8 +73,8 @@ public class CountDownTimer_Ps : MonoBehaviour
 		if (m_totalTime <= 0f)
 		{
 			m_timeUpEvent.Invoke();
-			m_timeUpUI = Instantiate(m_timeUpUI, new Vector3(0, 0, 0), Quaternion.identity);
-			m_timeUpUI.transform.SetParent(m_canvas.transform, false);
+			/*m_timeUpUI = Instantiate(m_timeUpUI, new Vector3(0, 0, 0), Quaternion.identity);
+			m_timeUpUI.transform.SetParent(m_canvas.transform, false);*/
 		}
     }
 }
