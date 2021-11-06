@@ -20,8 +20,8 @@ public class GameOver_Ps : MonoBehaviour
     /// </summary>
     public void GameOver()
     {
-        m_gameOverUI = Instantiate(m_gameOverUI, new Vector3 (0,0,0) , Quaternion.identity);
-        m_gameOverUI.transform.SetParent(m_canvas.transform,false);
+        /*m_gameOverUI = Instantiate(m_gameOverUI, new Vector3 (0,0,0) , Quaternion.identity);
+        m_gameOverUI.transform.SetParent(m_canvas.transform,false);*/
         m_gameOverEvent.Invoke();
     }
 }
