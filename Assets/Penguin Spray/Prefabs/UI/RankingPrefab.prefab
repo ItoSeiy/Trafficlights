@@ -341,7 +341,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 530}
+  m_AnchoredPosition: {x: 0, y: 251}
   m_SizeDelta: {x: 648, y: 1536}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &907486013804661371
@@ -372,7 +372,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 20fcfd355a36aac4a8030f78f1fbfcdf, type: 3}
+    m_Font: {fileID: 12800000, guid: fdf450e9541601344b6d8e439dfbeccc, type: 3}
     m_FontSize: 20
     m_FontStyle: 1
     m_BestFit: 0
@@ -384,7 +384,27 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: '1
+
+    2
+
+    3
+
+    4
+
+    5
+
+    6
+
+    7
+
+    8
+
+    9
+
+    10
+
+'
 --- !u!1 &1120129322785417669
 GameObject:
   m_ObjectHideFlags: 0
@@ -422,7 +442,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -4.1, y: 6}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &908486191614912317
@@ -884,8 +904,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fad73cacbfd9dd42bf2ec2ca05efcd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_titleScene: Penguin Spray
-  m_penguinSprayScene: TitleScene(tentative)
+  m_titleScene: TitleScene(tentative)
+  m_penguinSprayScene: Penguin Spray
 --- !u!1 &3015959893033740118
 GameObject:
   m_ObjectHideFlags: 0
