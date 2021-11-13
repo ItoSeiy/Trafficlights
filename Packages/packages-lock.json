@@ -1,5 +1,15 @@
 {
   "dependencies": {
+    "com.harumak.unityuiplayables": {
+      "version": "https://github.com/Haruma-K/UnityUIPlayables.git?path=/Assets/UnityUIPlayables#0.1.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.textmeshpro": "2.0.1",
+        "com.unity.timeline": "1.2.14"
+      },
+      "hash": "f6728728fa347093d3a76c32f009d5031ebe5de2"
+    },
     "com.unity.2d.animation": {
       "version": "3.2.9",
       "depth": 0,
