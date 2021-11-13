@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/dotPeNGuinsystem/Scene/Camera.unity
+    guid: 914f772471a121f4e930392500f9019c
   m_configObjects: {}

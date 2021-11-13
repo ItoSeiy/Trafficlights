@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.harumak.unityuiplayables": "https://github.com/Haruma-K/UnityUIPlayables.git?path=/Assets/UnityUIPlayables#0.1.0",
     "com.unity.2d.animation": "3.2.9",
     "com.unity.2d.pixel-perfect": "2.1.0",
     "com.unity.2d.psdimporter": "2.1.8",
