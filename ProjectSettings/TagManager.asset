@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Parent
+  - Obstacle
+  - Apple
+  - Cockroach
+  - Loafers
+  - Skunk
+  - Penguin
   layers:
   - Default
   - TransparentFX
