@@ -6,6 +6,32 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/dotPeNGuinsystem/Scene Ito/Camera Ito.unity
     guid: e6eb54e69cb4cd84198fa04d67f5d426
+=======
+    path: Assets/dotPeNGuinsystem/Scene/Camera.unity
+    guid: 914f772471a121f4e930392500f9019c
+  - enabled: 1
+    path: Assets/Penguin Escape/Scenes/endScene.unity
+    guid: 7228883aa7a6d33409278be5a5f5b366
+  - enabled: 1
+    path: Assets/Penguin Escape/Scenes/mainScene.unity
+    guid: 33d006475f08a0f4da022ee869093c95
+  - enabled: 1
+    path: Assets/Penguin Escape/Scenes/SampleScene.unity
+    guid: 6b2c01fc8813822438f8dd21e353aab6
+  - enabled: 1
+    path: Assets/Penguin Escape/Scenes/selectscene.unity
+    guid: 9cd4d02ef90a56b42b5c4b8e07e8edda
+  - enabled: 1
+    path: Assets/Penguin Run/Scenes/Penguin Run.unity
+    guid: f2d82e5abe373d14191fab4ec2610313
+  - enabled: 1
+    path: Assets/Penguin Run/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Penguin Run/Scenes/TitleScene.unity
+    guid: d7fed8e9a72177248aa2e8821b9c9047
+>>>>>>> 9d6bd09ef693554f3041ca897b607d4fa0b2927c
   m_configObjects: {}
