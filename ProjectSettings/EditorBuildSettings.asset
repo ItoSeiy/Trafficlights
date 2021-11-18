@@ -33,5 +33,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Penguin Run/Scenes/TitleScene.unity
     guid: d7fed8e9a72177248aa2e8821b9c9047
+<<<<<<< HEAD
 >>>>>>> 9d6bd09ef693554f3041ca897b607d4fa0b2927c
+=======
+  - enabled: 1
+    path: Assets/Penguin Spray/Scenes/TitleScene(tentative).unity
+    guid: 5bd6802bcd06c0e4a8974ce0440dde1b
+  - enabled: 1
+    path: Assets/Penguin Spray/Scenes/Penguin Spray.unity
+    guid: 4d53fc2dd2275cd49b9e1ad534941d0d
+>>>>>>> 1022990cfd5022ebd0e2e2914e8a3d4657a37164
   m_configObjects: {}
