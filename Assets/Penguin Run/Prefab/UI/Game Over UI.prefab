@@ -546,7 +546,7 @@ GameObject:
   - component: {fileID: 7190346706785027586}
   m_Layer: 5
   m_Name: Game Over UI
-  m_TagString: Untagged
+  m_TagString: InsertDestroy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -864,7 +864,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8380585941998315145}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3690528740271058650}
+        m_MethodName: TitleButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &3690528740271058650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -877,15 +888,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5e213704bdb63e408e930c9c73fdcba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _titleScene: 
   _penguinSlide: 
   _penguinSpray: 
   _penguinEscape: 
   _penguinSystem: 
+  _titleScene: 
   _normalSceneChangeTime: 4.5
   _systemSceneChangeTime: 5
+  _titleSceneChangeTime: 6
   _insertDestroyObject: []
   _slideInsert: {fileID: 0}
   _sprayInsert: {fileID: 0}
   _escapeInsert: {fileID: 0}
   _systemInsert: {fileID: 0}
+  _titleInsert: {fileID: 7522217305906709579, guid: 2271a69260ef8684789c5f4ab2c743a0,
+    type: 3}
