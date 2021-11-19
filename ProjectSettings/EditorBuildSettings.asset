@@ -6,15 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/1Master/Title Tep Master.unity
+    path: Assets/1Master/MasterTitle.unity
     guid: cfb6e64d4cf999744936175be027d971
   - enabled: 1
-    path: Assets/1Master/PnGuinSystem Master.unity
+    path: Assets/1Master/MasterPenguinSystem.unity
     guid: e6eb54e69cb4cd84198fa04d67f5d426
   - enabled: 1
-    path: Assets/1Master/Penguin Run Master.unity
+    path: Assets/1Master/MasterPenguinSlide.unity
     guid: f660522f4868edf49a2f1fb1f4a9819e
   - enabled: 1
-    path: Assets/1Master/Penguin Spray Master.unity
+    path: Assets/1Master/MasterPenguinSpray.unity
     guid: 90d7954db3102814b8f53237a51f25c0
   m_configObjects: {}
