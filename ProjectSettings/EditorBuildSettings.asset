@@ -6,33 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/dotPeNGuinsystem/Scene/Camera.unity
-    guid: 914f772471a121f4e930392500f9019c
+    path: Assets/1Master/Title Tep Master.unity
+    guid: cfb6e64d4cf999744936175be027d971
   - enabled: 1
-    path: Assets/Penguin Escape/Scenes/endScene.unity
-    guid: 7228883aa7a6d33409278be5a5f5b366
+    path: Assets/1Master/PnGuinSystem Master.unity
+    guid: e6eb54e69cb4cd84198fa04d67f5d426
   - enabled: 1
-    path: Assets/Penguin Escape/Scenes/mainScene.unity
-    guid: 33d006475f08a0f4da022ee869093c95
+    path: Assets/1Master/Penguin Run Master.unity
+    guid: f660522f4868edf49a2f1fb1f4a9819e
   - enabled: 1
-    path: Assets/Penguin Escape/Scenes/SampleScene.unity
-    guid: 6b2c01fc8813822438f8dd21e353aab6
-  - enabled: 1
-    path: Assets/Penguin Escape/Scenes/selectscene.unity
-    guid: 9cd4d02ef90a56b42b5c4b8e07e8edda
-  - enabled: 1
-    path: Assets/Penguin Run/Scenes/Penguin Run.unity
-    guid: f2d82e5abe373d14191fab4ec2610313
-  - enabled: 1
-    path: Assets/Penguin Run/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Penguin Run/Scenes/TitleScene.unity
-    guid: d7fed8e9a72177248aa2e8821b9c9047
-  - enabled: 1
-    path: Assets/Penguin Spray/Scenes/TitleScene(tentative).unity
-    guid: 5bd6802bcd06c0e4a8974ce0440dde1b
-  - enabled: 1
-    path: Assets/Penguin Spray/Scenes/Penguin Spray.unity
-    guid: 4d53fc2dd2275cd49b9e1ad534941d0d
+    path: Assets/1Master/Penguin Spray Master.unity
+    guid: 90d7954db3102814b8f53237a51f25c0
   m_configObjects: {}
