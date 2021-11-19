@@ -13,6 +13,7 @@ TagManager:
   - Penguin
   - InsertDestroy
   - Insert
+  - Get
   layers:
   - Default
   - TransparentFX
