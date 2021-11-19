@@ -30,7 +30,7 @@ public class AllSceneManeger : MonoBehaviour
     }*/
     public void PenguinSystemButton()
     {
-        Invoke("", _sceneChangeTime);
+        Invoke("PenguinSystem", _sceneChangeTime);
     }
 
 
@@ -52,7 +52,7 @@ public class AllSceneManeger : MonoBehaviour
         Debug.LogWarning("NoneScene");
         SceneManager.LoadScene(_penguinEscape);
     }*/
-    private void MasterPenguinSystem()
+    private void PenguinSystem()
     {
         SceneManager.LoadScene(_penguinSystem);
     }
