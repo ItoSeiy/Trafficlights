@@ -14,7 +14,7 @@ public class PenguinSelect : MonoBehaviour
     [SerializeField] Transform _penguinPosison;
     private GameObject[] _penguins;
     private int _penguinCount;
-    private int _penguinLimit = 4;
+    [SerializeField]private int _penguinLimit = 4;
 
     public void ShowValue()
     {

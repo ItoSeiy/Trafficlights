@@ -757,6 +757,7 @@ GameObject:
   - component: {fileID: 6493348560384755701}
   - component: {fileID: 8380585941998315145}
   - component: {fileID: 2364050301440673914}
+  - component: {fileID: 3690528740271058650}
   m_Layer: 5
   m_Name: Title Back Button
   m_TagString: Untagged
@@ -863,16 +864,28 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8380585941998315145}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7653985779977192335, guid: bc037c5080db64f41baf6f8dca0052bd,
-          type: 3}
-        m_MethodName: TitleBack
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+--- !u!114 &3690528740271058650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9129916325076756140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5e213704bdb63e408e930c9c73fdcba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _titleScene: 
+  _penguinSlide: 
+  _penguinSpray: 
+  _penguinEscape: 
+  _penguinSystem: 
+  _normalSceneChangeTime: 4.5
+  _systemSceneChangeTime: 5
+  _insertDestroyObject: []
+  _slideInsert: {fileID: 0}
+  _sprayInsert: {fileID: 0}
+  _escapeInsert: {fileID: 0}
+  _systemInsert: {fileID: 0}
