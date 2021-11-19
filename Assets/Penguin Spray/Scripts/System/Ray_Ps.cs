@@ -44,25 +44,28 @@ public class Ray_Ps : MonoBehaviour
                     var gj = hit.transform.GetChild(0).gameObject;
                     gj.SetActive(true);
                     m_cockroachTouch.Invoke();
-                    Destroy(hit.collider.gameObject);
-                    //StartCoroutine(Destroy(hit.collider));
+                    StartCoroutine(StartWorkingRoutine(hit.collider));
                 }
                 else if (hit.collider.tag == "Skunk")
                 {
+                    var gj = hit.transform.GetChild(0).gameObject;
+                    gj.SetActive(true);
                     m_skunkTouch.Invoke();
-                    Destroy(hit.collider.gameObject);
+                    StartCoroutine(StartWorkingRoutine(hit.collider));
                 }
                 else if (hit.collider.tag == "Loafers")
                 {
+                    var gj = hit.transform.GetChild(0).gameObject;
+                    gj.SetActive(true);
                     m_loaferstouch.Invoke();
-                    Destroy(hit.collider.gameObject);
+                    StartCoroutine(StartWorkingRoutine(hit.collider));
                 }
             }
         }
     }
-    private IEnumerable Destroy(Collider2D col)
+    IEnumerator StartWorkingRoutine(Collider2D col)
     {
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(0.5f);
         Destroy(col.gameObject);
 
     }
@@ -84,23 +87,23 @@ public class Ray_Ps : MonoBehaviour
 
                     foreach (var c in cArray)
                     {
-                        Destroy(c.gameObject);
 
                         if (c.tag == "Cockroach")
                         {
-                            var gj = c.transform.Find("Gjet").gameObject;
+                            var gj = c.transform.GetChild(0).gameObject;
                             gj.SetActive(true);
                             m_cockroachTouch.Invoke();
+                            StartCoroutine(StartWorkingRoutine(c));
                         }
                         else if (c.tag == "Skunk")
                         {
-
                             m_skunkTouch.Invoke();
+                            StartCoroutine(StartWorkingRoutine(c));
                         }
                         else if (c.tag == "Loafers")
                         {
-
                             m_loaferstouch.Invoke();
+                            StartCoroutine(StartWorkingRoutine(c));
                         }
                         //UnityEditor.Handles.DrawWireDisc(c.transform.position, Vector3.back, m_overlapRadius);
                     }
