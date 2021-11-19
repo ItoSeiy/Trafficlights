@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _videoPlayer: {fileID: 44635897}
-  _titileScene: MasterTitle
+  _titileScene: TitleMaster
 --- !u!1 &93017095
 GameObject:
   m_ObjectHideFlags: 0
@@ -4374,7 +4374,7 @@ PrefabInstance:
     - target: {fileID: 7653985779977192335, guid: bc037c5080db64f41baf6f8dca0052bd,
         type: 3}
       propertyPath: m_titleScene
-      value: MasterTitle
+      value: TitleMaster
       objectReference: {fileID: 0}
     - target: {fileID: 7653985779977192335, guid: bc037c5080db64f41baf6f8dca0052bd,
         type: 3}

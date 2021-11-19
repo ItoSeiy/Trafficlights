@@ -44,8 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6fe9337d529b054282660727867ea05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_titleScene: MasterTitle
-  m_penguinRunScene: Penguin Run
+  m_titleScene: TitleMaster
+  m_penguinRunScene: PenguinSlideMaster
 --- !u!114 &76924673474422116
 MonoBehaviour:
   m_ObjectHideFlags: 0
