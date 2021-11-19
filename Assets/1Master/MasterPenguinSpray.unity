@@ -1308,7 +1308,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u30DA\u30F3\u30AE\u30F3\u30B9\u30D7\u30EC\u30FC"
+  m_text: "\u30B9\u30D7\u30EC\u30FC\u9000\u6CBB"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4c26e661b1f710441b67d86b75e6e649, type: 2}
   m_sharedMaterial: {fileID: -6474861756696573815, guid: 4c26e661b1f710441b67d86b75e6e649,
@@ -1336,13 +1336,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38.7
-  m_fontSizeBase: 38.7
+  m_fontSize: 45.81
+  m_fontSizeBase: 45.81
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535

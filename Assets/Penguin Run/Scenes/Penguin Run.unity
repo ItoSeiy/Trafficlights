@@ -2564,7 +2564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 249629164032cca47922ccba154f5b75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_backGround: {fileID: 132805642}
+  m_backGround: {fileID: 132805641}
   speed: 1
 --- !u!4 &1445205946
 Transform:
