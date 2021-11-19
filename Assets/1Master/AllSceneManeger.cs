@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class AllSceneLoder : MonoBehaviour
+public class AllSceneManeger : MonoBehaviour
 {
     public void TitleBack()
     {
