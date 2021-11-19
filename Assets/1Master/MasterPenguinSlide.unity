@@ -4210,6 +4210,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7653985779977192335, guid: bc037c5080db64f41baf6f8dca0052bd,
+        type: 3}
+      propertyPath: m_titleScene
+      value: MasterTitle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7653985779977192335, guid: bc037c5080db64f41baf6f8dca0052bd,
+        type: 3}
+      propertyPath: m_penguinRunScene
+      value: MasterPenguinSlide
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc037c5080db64f41baf6f8dca0052bd, type: 3}
 --- !u!114 &8634397506878000906
