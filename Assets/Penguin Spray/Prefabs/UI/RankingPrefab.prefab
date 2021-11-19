@@ -771,7 +771,7 @@ GameObject:
   - component: {fileID: 9114982834208943131}
   m_Layer: 5
   m_Name: RankingPrefab
-  m_TagString: Untagged
+  m_TagString: InsertDestroy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -904,8 +904,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fad73cacbfd9dd42bf2ec2ca05efcd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_titleScene: MasterTitle
-  m_penguinSprayScene: MasterPenguinSpray
+  m_titleScene: TitleMaster
+  m_penguinSprayScene: PenguinSprayMaster
 --- !u!1 &3015959893033740118
 GameObject:
   m_ObjectHideFlags: 0
@@ -1048,6 +1048,7 @@ GameObject:
   - component: {fileID: 8413330144385348835}
   - component: {fileID: 1469339617092469585}
   - component: {fileID: 3362718462308709434}
+  - component: {fileID: 8789231473646199487}
   m_Layer: 5
   m_Name: Title Back Button
   m_TagString: Untagged
@@ -1155,8 +1156,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 9114982834208943131}
-        m_MethodName: TitleBack
+      - m_Target: {fileID: 8789231473646199487}
+        m_MethodName: TitleButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1166,6 +1167,31 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &8789231473646199487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3530590219784748422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5e213704bdb63e408e930c9c73fdcba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _penguinSlide: 
+  _penguinSpray: 
+  _penguinEscape: 
+  _penguinSystem: 
+  _titleScene: 
+  _normalSceneChangeTime: 4.5
+  _systemSceneChangeTime: 5
+  _insertDestroyObject: []
+  _slideInsert: {fileID: 0}
+  _sprayInsert: {fileID: 0}
+  _escapeInsert: {fileID: 0}
+  _systemInsert: {fileID: 0}
+  _titleInsert: {fileID: 0}
 --- !u!1 &3817733582696903602
 GameObject:
   m_ObjectHideFlags: 0
