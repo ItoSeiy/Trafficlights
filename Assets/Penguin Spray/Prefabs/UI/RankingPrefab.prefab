@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &906032119114017437
 RectTransform:
   m_ObjectHideFlags: 0
@@ -60,7 +60,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.2546384, g: 0.040873684, b: 0.9264706, a: 0.366}
+  m_Color: {r: 0.6556604, g: 0.6972382, b: 1, a: 0.366}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -178,15 +178,15 @@ RectTransform:
   m_GameObject: {fileID: 1119805438449149235}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.23687, y: 0.23687, z: 0.23687}
   m_Children: []
   m_Father: {fileID: 906238716694352107}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0, y: 0.000012488}
+  m_SizeDelta: {x: 666.92, y: 103.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &907782719048031463
 CanvasRenderer:
@@ -217,11 +217,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: fdf450e9541601344b6d8e439dfbeccc, type: 3}
-    m_FontSize: 18
+    m_FontSize: 57
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 98
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -433,7 +433,7 @@ RectTransform:
   m_GameObject: {fileID: 1120129322785417669}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.03, y: 1.03, z: 1.03}
+  m_LocalScale: {x: 0.97080564, y: 0.97080564, z: 0.97080564}
   m_Children:
   - {fileID: 905435279698129753}
   - {fileID: 905917096735234371}
@@ -703,15 +703,15 @@ RectTransform:
   m_GameObject: {fileID: 1120247726871610249}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.2740503, y: 0.2740503, z: 0.2740503}
   m_Children: []
   m_Father: {fileID: 905290453264862617}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.5}
-  m_SizeDelta: {x: -20, y: -13}
+  m_AnchoredPosition: {x: -2.5, y: 0.19999981}
+  m_SizeDelta: {x: 332.195, y: 49.999996}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &908373953646603821
 CanvasRenderer:
@@ -741,13 +741,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: fdf450e9541601344b6d8e439dfbeccc, type: 3}
+    m_FontSize: 50
     m_FontStyle: 2
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
+    m_MinSize: 0
+    m_MaxSize: 143
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -904,8 +904,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fad73cacbfd9dd42bf2ec2ca05efcd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_titleScene: TitleScene(tentative)
-  m_penguinSprayScene: Penguin Spray
+  m_titleScene: MasterTitle
+  m_penguinSprayScene: MasterPenguinSpray
 --- !u!1 &3015959893033740118
 GameObject:
   m_ObjectHideFlags: 0
