@@ -8,7 +8,7 @@ using UnityEngine;
 public class BackGround_Pr : MonoBehaviour
 {
     /// <summary>背景のスプライト</summary>
-    [SerializeField] SpriteRenderer m_backGround;
+    [SerializeField] GameObject m_backGround;
     /// <summary>スクロールスピード</summary>
     [SerializeField] float speed = 1;
 
@@ -18,9 +18,9 @@ public class BackGround_Pr : MonoBehaviour
         m_backGround.transform.position -= new Vector3(0, Time.deltaTime * speed);
 
         //Yが-11まで来れば、10まで移動する
-        if (m_backGround.transform.position.y <= -11f)
+        if (m_backGround.transform.position.y <= -9.9f)
         {
-            m_backGround.transform.position = new Vector2(0,10f);
+            m_backGround.transform.position = new Vector3(0,10f,20);
         }
     }
 }

@@ -72,7 +72,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_direction: {x: 0, y: -1}
-  m_speed: 5
 --- !u!61 &397786116674599786
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -355,6 +354,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2763641586319429174, guid: bfda5000ccd99df4a848d886930f6e8e,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763641586319429174, guid: bfda5000ccd99df4a848d886930f6e8e,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763641586319429174, guid: bfda5000ccd99df4a848d886930f6e8e,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763641586319429174, guid: bfda5000ccd99df4a848d886930f6e8e,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -402,6 +416,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027548399839257844, guid: bfda5000ccd99df4a848d886930f6e8e,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 20.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027548399839257844, guid: bfda5000ccd99df4a848d886930f6e8e,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 22.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027548399839257844, guid: bfda5000ccd99df4a848d886930f6e8e,
+        type: 3}
+      propertyPath: m_AutoTiling
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bfda5000ccd99df4a848d886930f6e8e, type: 3}
