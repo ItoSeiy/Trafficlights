@@ -417,11 +417,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5e213704bdb63e408e930c9c73fdcba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _titleScene: MasterTitle
-  _penguinSlide: MasterPenguinSlide
-  _penguinSpray: MasterPenguinSpray
+  _penguinSlide: PenguinSlideMaster
+  _penguinSpray: PenguinSprayMaster
   _penguinEscape: 
-  _penguinSystem: MasterPenguinSystem
+  _penguinSystem: PenguinSystemMaster
+  _titleScene: TitleMaster
   _normalSceneChangeTime: 5
   _systemSceneChangeTime: 8
   _insertDestroyObject:
@@ -435,6 +435,7 @@ MonoBehaviour:
   _sprayInsert: {fileID: 1420162034}
   _escapeInsert: {fileID: 0}
   _systemInsert: {fileID: 1778544843}
+  _titleInsert: {fileID: 0}
 --- !u!1 &627220404 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8108526732323697888, guid: f96e18b0bd8d0614bb064f0d30681520,
