@@ -555,7 +555,7 @@ MonoBehaviour:
   _penguinEscape: 
   _penguinSystem: PenguinSystemMaster
   _titleScene: TitleMaster
-  _normalSceneChangeTime: 5
+  _normalSceneChangeTime: 6.5
   _systemSceneChangeTime: 8
   _insertDestroyObject:
   - {fileID: 1754838453}
