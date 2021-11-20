@@ -29,8 +29,8 @@ public class ShareController : MonoBehaviour
         }
 
         // 投稿する
-        string tweetText = "heloooooo";
-        string tweetURL = "https://www.youtube.com/";
+        string tweetText = "テレビアニメ輪るピングドラムのゲーム「Penguin Actions」で撮ったよ！　生存戦略、しましょうか。";
+        string tweetURL = "公式ホームページ　https://penguindrum10th.jp/"　+ "公式ツイッター https://twitter.com/penguindrum" +  "(ゲームURL)";
         SocialConnector.SocialConnector.Share(tweetText, tweetURL, imgPath);
     }
 }

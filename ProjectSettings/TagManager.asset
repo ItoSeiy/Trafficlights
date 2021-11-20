@@ -11,6 +11,9 @@ TagManager:
   - Loafers
   - Skunk
   - Penguin
+  - InsertDestroy
+  - Insert
+  - Get
   layers:
   - Default
   - TransparentFX

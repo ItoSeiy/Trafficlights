@@ -5,19 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class AllSceneManeger : MonoBehaviour
 {
-    [SerializeField] private string _titleScene;
     [SerializeField] private string _penguinSlide;
     [SerializeField] private string _penguinSpray;
     [SerializeField] private string _penguinEscape;
     [SerializeField] private string _penguinSystem;
+    [SerializeField] private string _titleScene;
     [SerializeField] float _normalSceneChangeTime = 4.5f;
     [SerializeField] float _systemSceneChangeTime = 5f;
 
     [SerializeField] GameObject[] _insertDestroyObject;
+
     [SerializeField] GameObject _slideInsert;
     [SerializeField] GameObject _sprayInsert;
     [SerializeField] GameObject _escapeInsert;
     [SerializeField] GameObject _systemInsert;
+    [SerializeField] GameObject _titleInsert;
 
     //public void TitleBackButton()
     //{
@@ -42,6 +44,10 @@ public class AllSceneManeger : MonoBehaviour
         Invoke("PenguinSystem", _systemSceneChangeTime);
         Insert("PenguinSystem");
     }
+    public void TitleButton()
+    {
+        Insert("Title");
+    }
 
     private void Insert(string sceneName)
     {
@@ -55,6 +61,9 @@ public class AllSceneManeger : MonoBehaviour
                 break;
             case "PenguinSystem":
                 Invoke("SystemInsert", 1f);
+                break;
+            case "Title":
+                TitleInsert();
                 break;
         }    
     }
@@ -81,6 +90,16 @@ public class AllSceneManeger : MonoBehaviour
             Destroy(g);
         }
         _systemInsert.SetActive(true); 
+    }
+    private void TitleInsert()
+    {
+        var insert = GameObject.Find("InsertParent").transform.Find("TitleInsert").gameObject;
+        insert.SetActive(true);
+        _insertDestroyObject = GameObject.FindGameObjectsWithTag("InsertDestroy");
+        foreach(var g in _insertDestroyObject)
+        {
+            Destroy(g);
+        }
     }
 
     //private void Title()
