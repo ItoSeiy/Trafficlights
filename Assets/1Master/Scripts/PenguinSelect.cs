@@ -62,16 +62,20 @@ public class PenguinSelect : MonoBehaviour
     }
     private void PenguinCount()
     {
-        _penguins = GameObject.FindGameObjectsWithTag("Penguin");
         _penguinCount++;
 
         if(_penguinCount > _penguinLimit)
         {
-            foreach(var p in _penguins)
-            {
-                Destroy(p);
-            }
+            AllPenguinDestroy();
             _penguinCount = 0;
+        }
+    }
+    public void AllPenguinDestroy()
+    {
+        _penguins = GameObject.FindGameObjectsWithTag("Penguin");
+        foreach (var p in _penguins)
+        {
+            Destroy(p);
         }
     }
 }
