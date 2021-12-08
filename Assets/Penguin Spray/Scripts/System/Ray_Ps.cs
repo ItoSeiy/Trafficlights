@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using System.Linq;
 
 /// <summary>
 /// RaycastとOverlapCircleを管理するスクリプト
@@ -44,26 +45,26 @@ public class Ray_Ps : MonoBehaviour
                     var gj = hit.transform.GetChild(0).gameObject;
                     gj.SetActive(true);
                     m_cockroachTouch.Invoke();
-                    StartCoroutine(StartWorkingRoutine(hit.collider));
+                    StartCoroutine(ObjectDestroy(hit.collider));
                 }
                 else if (hit.collider.tag == "Skunk")
                 {
                     var gj = hit.transform.GetChild(0).gameObject;
                     gj.SetActive(true);
                     m_skunkTouch.Invoke();
-                    StartCoroutine(StartWorkingRoutine(hit.collider));
+                    StartCoroutine(ObjectDestroy(hit.collider));
                 }
                 else if (hit.collider.tag == "Loafers")
                 {
                     var gj = hit.transform.GetChild(0).gameObject;
                     gj.SetActive(true);
                     m_loaferstouch.Invoke();
-                    StartCoroutine(StartWorkingRoutine(hit.collider));
+                    StartCoroutine(ObjectDestroy(hit.collider));
                 }
             }
         }
     }
-    IEnumerator StartWorkingRoutine(Collider2D col)
+    IEnumerator ObjectDestroy(Collider2D col)
     {
         yield return new WaitForSeconds(0.5f);
         Destroy(col.gameObject);
@@ -72,6 +73,8 @@ public class Ray_Ps : MonoBehaviour
     void Touch()
     {
         if (Input.touchCount < 0) return;
+        
+
 
         //マルチタッチに対応させるためにforeachで回す
         foreach (var t in Input.touches)
@@ -84,29 +87,19 @@ public class Ray_Ps : MonoBehaviour
             switch (t.phase)
             {
                 case TouchPhase.Began:
-
-                    foreach (var c in cArray)
+                    new List<Collider2D>(cArray).ForEach(c =>
                     {
-
                         if (c.tag == "Cockroach")
                         {
                             var gj = c.transform.GetChild(0).gameObject;
                             gj.SetActive(true);
-                            m_cockroachTouch.Invoke();
-                            StartCoroutine(StartWorkingRoutine(c));
+                            m_cockroachTouch.Invoke();   
                         }
-                        else if (c.tag == "Skunk")
-                        {
-                            m_skunkTouch.Invoke();
-                            StartCoroutine(StartWorkingRoutine(c));
-                        }
-                        else if (c.tag == "Loafers")
-                        {
-                            m_loaferstouch.Invoke();
-                            StartCoroutine(StartWorkingRoutine(c));
-                        }
-                        //UnityEditor.Handles.DrawWireDisc(c.transform.position, Vector3.back, m_overlapRadius);
-                    }
+                        else if (c.tag == "Skunk") m_skunkTouch.Invoke();
+                        else if (c.tag == "Loafers") m_loaferstouch.Invoke();
+
+                        StartCoroutine(ObjectDestroy(c));
+                    });
                     break;
             }
         }
