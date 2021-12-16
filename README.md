@@ -27,7 +27,7 @@ https://www.youtube.com/watch?v=AdkP-ORjhCE&t=638s
 #### ゲームプレイ動画
 https://www.youtube.com/watch?v=b-iJ0766A9Y
 
-## 作業内容
+## 作業内容(伊東聖矢)
 全ミニゲームの実装
 
 ミニゲームにおけるランキング機能の実装
