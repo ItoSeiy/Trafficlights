@@ -40,8 +40,6 @@ https://www.youtube.com/watch?v=b-iJ0766A9Y
 
 ## 制作形式
 
-## 作成形式
-
 Unity,
 Github,
 Sourcetree
